@@ -1,0 +1,69 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dec to bin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="/CSS/dec to bin.css">
+</head>
+
+<body>
+    <div class="main_container">
+
+        <div class="navbar">
+
+            <ul class="main_nav">
+                <li><a href="/dec to bin.html" id="target">Dec - Bin</a></li>
+                <li><a href="#">Dec - Oct</a></li>
+                <li><a href="#">Dec - Hex</a></li>
+
+                <li><a href="/bin to dec.html">Bin - Dec</a></li>
+                <li><a href="#">Bin - Oct</a></li>
+                <li><a href="#">Bin - Hex</a></li>
+
+                <li><a href="#">Oct - Bin</a></li>
+                <li><a href="#">Oct - Dec</a></li>
+                <li><a href="#">Oct - Hex</a></li>
+
+                <li><a href="#">Hex - Bin</a></li>
+                <li><a href="#">Hex - Dec</a></li>
+                <li><a href="#">Hex - Oct</a></li>
+            </ul>
+
+        </div>
+
+
+        <div class="main_content">
+            <div class="input_bar">
+                <h2 id="headerr"><span>E</span> nter A Decimal No :</h2>
+                <input type="text" id="input_dec" placeholder="Enter a decimal number">
+                <br>
+                <button id="convert" onclick="decToBin()">Convert</button>
+            </div>
+
+            <div class="partiation"></div>
+            <a href="/bin to dec.html" id="swap_link"><button id="swap" onclick="swapp()">Swap</button></a>
+
+            <div class="output">
+                <span class="op">
+                    <h2 id="headerr"><span>B</span> inary Equivalent:</h2>
+                    <div class="main_op" id="main_op">0000</div>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="/Js/brain of dec to bin.js"></script>
+</body>
+
+</html>
