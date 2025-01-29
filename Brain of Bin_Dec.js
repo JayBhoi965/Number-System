@@ -22,4 +22,7 @@ let decToDec = () => {
 
     }
     document.getElementById("main_op").innerHTML = sum;
+      let css1 = document.getElementById("main_op");
+    css1.style.transition = "all 0.5s";
+    css1.style.boxShadow = "2px 2px 5px black";
 }
