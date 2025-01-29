@@ -18,4 +18,7 @@ let decToBin = () => {
     let string_arr = arr2.toString();
     arr_num = string_arr.split(",").join("");
     document.getElementById("main_op").innerHTML = arr_num;
+      let css1 = document.getElementById("main_op");
+    css1.style.transition = "all 0.5s";
+    css1.style.boxShadow = "2px 2px 5px black";
 }
